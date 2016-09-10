@@ -2,9 +2,12 @@
 
 module.exports = {
   '@tags': ['good'],
-  'Load Apply Page' : function (client) {
+  'Load Apply Page': function(client) {
+
+    const urls = client.globals.urls;
+
     client
-      .url('http://fyvr.net/acme/apply.html')
+      .url(urls.base + urls.good.apply)
       .waitForElementVisible('body', 1000)
       .assert.containsText('.header > h1', 'Join the Acme Widgets Team');
   },
@@ -12,6 +15,11 @@ module.exports = {
   'Validate HTML': function (client) {
     client
       .validator();
+  },
+
+  'Run bookmarklets': function (client) {
+    client
+      .resemble();
   },
 
   'Check Tab Order': function(client) {

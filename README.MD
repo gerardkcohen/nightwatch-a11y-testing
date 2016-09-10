@@ -42,6 +42,7 @@ $ nightwatch --env safari
 
 You can specify the group using the --group option. There are two main Nightwatch groups, one using aXe and the other using Tenon. The are further broken up by page. Groups are based on the tests directory structure.
 
+```
 nightwath-a11y-testing/
   |
 tests/
@@ -53,6 +54,7 @@ tests/
       ├── about
       └── apply
       └── products
+```
 
 ```sh
 $ nightwatch // all groups
@@ -90,3 +92,12 @@ $ nightwatch --env safari --group Tenon/apply --tag bad // test the bad apply pa
 ## Additional Information
 
 I am not endorsing any of the products used here, or even the idea of this level of testing. Automated accessibility testing is really nice, but it should be a supplement to testing with actual assistive technologies, preferably with actual assistive technology users. I am thankful for the providers of the tools I used for this example. Please check the [RESOURCES](./RESOURCES.MD) for more information.
+
+---
+
+## History
+
+
+
+* 09/10/2016 - Update npm dependencies, add visual/ CSS bookmarklet tests
+

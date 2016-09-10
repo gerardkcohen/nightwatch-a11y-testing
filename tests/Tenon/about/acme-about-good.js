@@ -1,9 +1,13 @@
+/*jshint esversion: 6 */
 
 module.exports = {
   '@tags': ['good'],
   'Load About Page' : function (client) {
+
+    const urls = client.globals.urls;
+
     client
-      .url('http://fyvr.net/acme/content-good.html')
+      .url(urls.base + urls.good.about)
       .waitForElementVisible('body', 1000)
       .assert.containsText('.header > h1', 'About Acme');
   },
@@ -16,6 +20,11 @@ module.exports = {
   'Check Tenon a11y': function (client) {
     client
       .tenonCheck();
+  },
+
+  'Run bookmarklets': function (client) {
+    client
+      .resemble();
   },
 
   after : function(client) {

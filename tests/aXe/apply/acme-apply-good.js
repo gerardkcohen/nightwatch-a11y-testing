@@ -17,6 +17,11 @@ module.exports = {
       .validator();
   },
 
+  'Run bookmarklets': function (client) {
+    client
+      .resemble();
+  },
+
   'Check Tab Order': function(client) {
     const TAB = client.Keys.TAB;
 

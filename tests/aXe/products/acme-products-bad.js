@@ -23,6 +23,11 @@ module.exports = {
       .aXeCheck('document');
   },
 
+  'Run bookmarklets': function (client) {
+    client
+      .resemble();
+  },
+
   after : function(client) {
     client.end();
   }

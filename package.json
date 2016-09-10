@@ -9,12 +9,13 @@
   "author": "Gerard K. Cohen",
   "license": "ISC",
   "dependencies": {
-    "axe-core": "^1.1.1",
-    "chromedriver": "^2.21.2",
+    "axe-core": "^2.0.5",
+    "chromedriver": "^2.23.1",
     "gulp-html": "^0.4.4",
-    "nightwatch": "^0.8.18",
-    "nightwatch-html-reporter": "^1.0.3",
-    "selenium-server": "^2.53.0",
-    "tenon-node": "^0.3.0"
+    "nightwatch": "^0.9.8",
+    "nightwatch-html-reporter": "^1.0.8",
+    "node-resemble-js": "^0.1.1",
+    "selenium-server": "^2.53.1",
+    "tenon-node": "^0.4.0"
   }
 }

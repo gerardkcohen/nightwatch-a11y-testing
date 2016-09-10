@@ -9,6 +9,7 @@ const reporter = new HtmlReporter({
 
 module.exports = {
 	reporter: reporter.fn,
+	visualDirectory: './visual/',
 	urls: {
 		base: 'http://fyvr.net/acme/',
 		good: {

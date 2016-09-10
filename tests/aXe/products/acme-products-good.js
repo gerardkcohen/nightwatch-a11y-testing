@@ -1,7 +1,5 @@
 /*jshint esversion: 6 */
 
-const path = require('path');
-
 module.exports = {
   '@tags': ['good'],
   'Load Product Page' : function (client) {
@@ -23,6 +21,11 @@ module.exports = {
     client
       .injectAxe()
       .aXeCheck('document');
+  },
+
+  'Run bookmarklets': function (client) {
+    client
+      .resemble();
   },
 
   after : function(client) {

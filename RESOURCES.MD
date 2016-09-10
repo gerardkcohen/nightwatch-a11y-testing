@@ -4,10 +4,10 @@ Here is a listing of all the resources used for this presentation.
 
 ## HTML Validation
 
-1. [Official W3C validator](https://validator.w3.org/nu/) 
+1. [Official W3C validator](https://validator.w3.org/nu/)
 2. [Web Developer Tools plugin](http://chrispederick.com/work/web-developer/)3. [Local W3C Validator](https://github.com/validator/validator)
 ## CSS Bookmarlets
-1. [debugCSS](http://yahoo.github.io/debugCSS/)
+1. [debugCSS](http://imbrianj.github.io/debugCSS)
 2. [Diagnostic.css](http://www.karlgroves.com/2013/09/07/diagnostic-css-super-quick-web-accessibility-testing/)
 3. [Revenge.css](https://github.com/Heydon/REVENGE.CSS)
 
@@ -33,8 +33,8 @@ Here is a listing of all the resources used for this presentation.
 4. [gulp-html](https://www.npmjs.com/package/gulp-html)
 5. [axe-core](https://www.npmjs.com/package/axe-core)
 6. [tenon-node](https://www.npmjs.com/package/tenon-node)
+7. [node-resemble-js](https://www.npmjs.com/package/node-resemble-js)
 
 ## Additional
 
 1. [Safari Selenium Webdriver](http://www.seleniumhq.org/download/)
- 
