@@ -8,14 +8,15 @@
   },
   "author": "Gerard K. Cohen",
   "license": "ISC",
-  "dependencies": {
-    "axe-core": "^2.0.5",
-    "chromedriver": "^2.23.1",
-    "gulp-html": "^0.4.4",
-    "nightwatch": "^0.9.8",
-    "nightwatch-html-reporter": "^1.0.8",
-    "node-resemble-js": "^0.1.1",
-    "selenium-server": "^2.53.1",
-    "tenon-node": "^0.4.0"
+  "devDependencies": {
+    "axe-core": "^2.2.0",
+    "chromedriver": "^2.29.0",
+    "geckodriver": "^1.6.1",
+    "nightwatch": "^0.9.15",
+    "nightwatch-html-reporter": "^2.0.1",
+    "node-resemble-js": "^0.2.0",
+    "selenium-server": "^3.4.0",
+    "tenon-node": "^0.4.0",
+    "vnu-jar": "^17.3.0"
   }
 }

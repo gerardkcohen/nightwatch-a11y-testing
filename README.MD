@@ -5,7 +5,7 @@ keyboard tab tests, and accessibility test using Deque's [aXe](http://www.deque.
 
 ## Slides
 
-Slides are available at Slideshare: [http://www.slideshare.net/gerardkcohen/accessibility-testing-tools-for-developers-gerard-k-cohen-csun-2016](http://www.slideshare.net/gerardkcohen/accessibility-testing-tools-for-developers-gerard-k-cohen-csun-2016)
+Slides are available at: [https://unfetteredthoughts.net/slides/a11yTools/index.html](https://unfetteredthoughts.net/slides/a11yTools/index.html)
 
 ## Installation
 
@@ -25,9 +25,9 @@ Launch Nightwatch, using any of the available [Command-line Options](http://nigh
 
 The following WebDriver environments are supported:
 
-* Firefox (included with Selenium) - default
+* Firefox  (via [GeckoDriver](https://www.npmjs.com/package/geckodriver)) - default
 * Chrome (via [ChromeDriver](https://www.npmjs.com/package/chromedriver)) - chrome
-* Safari (via [Selenium HQ](http://docs.seleniumhq.org/download/)) - safari
+* Safari < v10 (via [Selenium HQ](http://docs.seleniumhq.org/download/)) - safari
 
 You can specify any particular WebDriver environment by using the `--env` option.
 
