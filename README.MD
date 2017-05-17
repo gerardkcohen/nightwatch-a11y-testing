@@ -98,6 +98,6 @@ I am not endorsing any of the products used here, or even the idea of this level
 ## History
 
 
-
+* 05/17/2016 - Update npm dependencies and slides
 * 09/10/2016 - Update npm dependencies, add visual/ CSS bookmarklet tests
 
